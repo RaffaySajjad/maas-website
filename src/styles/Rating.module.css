@@ -1,0 +1,45 @@
+.container {
+  color: #6b7280;
+}
+
+.flex {
+  display: flex;
+  margin: 20px 0;
+}
+
+.column {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quality {
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 1px solid;
+}
+
+.review {
+  gap: 15px;
+  display: flex;
+  font-size: 1.125rem;
+  align-items: center;
+}
+
+.image {
+  width: 45px;
+  height: 45px;
+  border: 2px solid rgb(46 134 193);
+  border-radius: 50%;
+}
+
+.textContent {
+  font-style: italic;
+  font-weight: 800;
+  color: #111827;
+}
+
+.reviewer {
+  font-size: 16px;
+  font-weight: 600;
+}

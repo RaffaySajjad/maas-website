@@ -1,0 +1,154 @@
+.footer {
+  position: relative;
+  margin-top: 76px;
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.contactUs {
+  border: 1px solid #e5e7eb;
+  width: 100%;
+  border-radius: 20px;
+  max-width: 1000px;
+  height: 500px;
+  margin: 100px;
+  background: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.content {
+  max-width: 800px;
+  text-align: center;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content p {
+  font-style: italic;
+}
+
+.contactUs h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.contactUs span {
+  color: rgb(46 134 193);
+}
+
+.bottom {
+  bottom: -5px;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.submitButton {
+  font-size: 16px;
+}
+
+.contact {
+  margin-top: 35px;
+  z-index: 100;
+}
+
+.contact input {
+  min-width: 320px;
+  padding: 15px 15px;
+  cursor: pointer;
+}
+
+.inset {
+  position: absolute;
+  border-radius: 0 20px 20px 0;
+  background-color: rgb(249 250 251 / 1);
+  z-index: -2;
+  width: 50%;
+  height: 550px;
+}
+
+.pattern {
+  position: absolute;
+  top: 55px;
+  left: 49%;
+  z-index: -1;
+}
+
+.background {
+  position: relative;
+  bottom: -187px;
+}
+
+.copyright {
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+  .content {
+    padding: 0 15px;
+  }
+
+  .submitButton {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactUs {
+    margin: 50px 15px;
+  }
+
+  .content {
+    max-width: 100%;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .contact {
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .footer {
+    margin-top: 32px;
+  }
+
+  .contact input {
+    min-width: unset;
+  }
+
+  .content h1 {
+    font-size: 25px;
+  }
+
+  .background {
+    bottom: 0;
+  }
+
+  .inset {
+    height: 450px;
+  }
+
+  .pattern {
+    top: 30px;
+  }
+
+  .copyright {
+    font-size: 16px;
+  }
+}
